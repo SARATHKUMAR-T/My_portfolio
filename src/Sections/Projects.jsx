@@ -1,4 +1,5 @@
 import globill from "../assets/cropped.globill.png";
+import techJob from "../assets/localhost_19000_.png";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
@@ -114,7 +115,7 @@ function Projects() {
         <div className="py-8 ">
           <div className="relative h-72 sm:h-96 lg:h-[28rem]  md:h-96  w-[70%] rounded-lg mx-auto bg-gray-400 px-2 py-2">
             <img
-              src={globill}
+              src={techJob}
               className="rounded-md w-full h-full"
               alt="globill"
             />
