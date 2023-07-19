@@ -6,7 +6,7 @@ function About() {
       className="relative overflow-x-hidden bg-slate-900 min-h-screen max-w-full py-6 sm:py-12 md:py-48"
       id="about"
     >
-        <h1 className="capitalize text-center text-2xl sm:text-6xl lg:text-2xl font-bold tracking-wider ">
+        <h1 className=" capitalize text-center text-2xl sm:text-6xl lg:text-2xl font-bold tracking-wider ">
         <span>a</span>
         bout{" "}
         <span >m</span>e

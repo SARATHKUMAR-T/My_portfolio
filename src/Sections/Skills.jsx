@@ -213,7 +213,7 @@ function Skills() {
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 0.8 }}
-              className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 bg-lime-500"
+              className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 "
             ></motion.div>
             <motion.div
               initial={{ x: -500, opacity: 0 }}

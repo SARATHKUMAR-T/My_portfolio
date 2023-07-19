@@ -1,5 +1,5 @@
 import globill from "../assets/cropped.globill.png";
-import techJob from "../assets/localhost_19000_.png";
+import techJob from "../assets/techjob.png";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
@@ -87,7 +87,7 @@ function Projects() {
                   <span>github</span>{" "}
                 </a>
               </div>
-              <div className="flex w-1/2  mx-auto justify-center items-center gap-2">
+              <div className="flex w-1/2 pb-4  mx-auto justify-center items-center gap-2">
                 <a
                   href="https://globill.netlify.app/"
                   target="_"
@@ -144,10 +144,10 @@ function Projects() {
               <p className="text-lime-300 underline decoration-2 decoration-slate-800 tracking-widest">
                 Tech Stacks Used
               </p>
-              <div className="grid grid-cols-2 grid-rows-1 xl:grid-cols-3 lg:grid-rows-1  tracking-wider  w-3/4  gap-2 lg:gap-4  mx-auto mt-2">
+              <div className="flex flex-col lg:flex-row justify-center  tracking-wider  w-3/4  gap-2 lg:gap-4  mx-auto mt-2">
                 {/* <p className="bg-cyan-500 px-2 py-1 rounded-md ">React</p>
                 <p className="bg-blue-400 px-2 py-1 rounded-md">Node</p> */}
-                <p className="bg-cyan-500 text-slate-200 px-1 py-1 rounded-md ">
+                <p className="bg-cyan-500 text-slate-200 px-3 py-1 rounded-md ">
                   React
                 </p>
                 <p className="bg-lime-700 text-slate-100 px-2 py-1 rounded-md">
@@ -169,7 +169,7 @@ function Projects() {
                   <span>github</span>{" "}
                 </a>
               </div>
-              <div className="flex w-1/2  mx-auto justify-center items-center gap-2">
+              <div className="flex w-1/2 pb-4  mx-auto justify-center items-center gap-2">
                 <a
                   href="https://expo.dev/@saratht/react_native_jobs"
                   target="_"

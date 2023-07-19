@@ -1,6 +1,8 @@
 import profile2 from "../assets/KOLORO_1673783232127.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
+import prof2 from "../assets/prof2.png";
+import prof3 from "../assets/prof3.png";
 import Navbar from "../Components/Navbar";
 // import MarkSvg from "../assets/shape-04.svg";
 // import Shape5 from "../assets/shape-05.svg";
@@ -17,18 +19,18 @@ function Hero() {
         <div className="flex flex-col  gap-4 sm:gap-0 sm:flex-row mt-16 max-w-full mx-auto ">
           {/* text-box */}
           <div className="w-1/2 uppercase px-4 py-3">
-            <h1 className=" text-6xl md:text-8xl font-bold tracking-wide">
+            <h1 className="hover:shadow-2xl duration-200 rounded-lg hover:bg-blue-500 text-6xl md:text-8xl font-bold tracking-wide">
               <span className="text-slate-900">H</span>e
               <span className="text-slate-900">llo</span>!
             </h1>
-            <p className="text-6xl md:text-8xl font-bold tracking-wide">
+            <p className="hover:shadow-2xl duration-200 rounded-lg hover:bg-blue-500 text-6xl md:text-8xl font-bold tracking-wide">
               <span className="text-slate-900">I'm</span> Sarath
             </p>
             <motion.p
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 3 }}
-              className="capitalize text-2xl font-semibold tracking-wider"
+              transition={{ duration: 2 }}
+              className=" capitalize text-2xl font-semibold tracking-wider"
             >
               And i make <span className="text-slate-900">web</span>sites!{" "}
             </motion.p>
