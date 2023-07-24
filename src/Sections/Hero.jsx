@@ -18,7 +18,7 @@ function Hero() {
         className=" flex flex-col  items-center py-0 sm:py-16 px-4 "
         id="hero"
       >
-        <div className="flex flex-col  gap-4 sm:gap-0 sm:flex-row mt-16 max-w-full mx-auto ">
+        <div className="flex flex-col  gap-4 sm:gap-0 sm:flex-row mt-8 sm:mt-16 max-w-full mx-auto ">
           {/* text-box */}
           <div className="w-1/2 uppercase px-4 py-3">
             <h1 className="hover:shadow-2xl duration-200 rounded-lg hover:bg-blue-500 text-6xl md:text-8xl font-bold tracking-wide">
