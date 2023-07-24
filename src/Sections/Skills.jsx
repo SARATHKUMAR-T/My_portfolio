@@ -37,14 +37,14 @@ function Skills() {
               className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 bg-lime-500"
             ></motion.div>
             <motion.div
-              initial={{ x: -400, opacity: 0 }}
+              initial={{ x: -200, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 0.8 }}
               className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 bg-lime-500"
             ></motion.div>
             <motion.div
-              initial={{ x: -500, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 1 }}
@@ -59,7 +59,7 @@ function Skills() {
           </p>
           <div className="flex gap-2">
             <motion.div
-              initial={{ x: 400, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 1 }}
@@ -123,14 +123,14 @@ function Skills() {
               className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 bg-lime-500"
             ></motion.div>
             <motion.div
-              initial={{ x: -400, opacity: 0 }}
+              initial={{ x: -200, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 0.8 }}
               className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 bg-lime-500"
             ></motion.div>
             <motion.div
-              initial={{ x: -500, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 1 }}
@@ -145,7 +145,7 @@ function Skills() {
           </p>
           <div className="flex gap-2">
             <motion.div
-              initial={{ x: 400, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 1 }}
@@ -209,14 +209,14 @@ function Skills() {
               className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 bg-lime-500"
             ></motion.div>
             <motion.div
-              initial={{ x: -400, opacity: 0 }}
+              initial={{ x: -200, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 0.8 }}
               className=" h-8 md:h-14 w-8 md:w-28  rounded-lg border-4 border-lime-100 "
             ></motion.div>
             <motion.div
-              initial={{ x: -500, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 1 }}
