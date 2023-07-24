@@ -6,10 +6,10 @@ function Skills() {
       className="min-h-screen px-4 py-12 max-w-full bg-blue-700"
       id="skills"
     >
-      <h1 className="uppercase text-center mt-6 text-4xl sm:text-6xl lg:text-6xl font-bold tracking-wider">
+      <h1 className="uppercase text-center mt-2 sm:mt-6 text-4xl sm:text-6xl lg:text-6xl font-bold tracking-wider">
         <span className="text-lime-300">S</span>kills
       </h1>
-      <div className=" rounded-lg gap-8 text-slate-100 flex items-center justify-center  flex-col max-w-4xl mx-auto mt-6 px-4 py-12">
+      <div className=" rounded-lg gap-8 text-slate-100 flex items-center justify-center  flex-col max-w-4xl mx-auto mt-2 sm:mt-6 px-4 py-4 sm:py-12">
         <div className=" flex flex-col sm:flex-row gap-4 items-center">
           <p className="text-xl md:text-3xl font-semibold w-36 text-center sm:text-end ">
             React
