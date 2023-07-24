@@ -1,4 +1,6 @@
 import profile2 from "../assets/KOLORO_1673783232127.jpg";
+import s1 from "../assets/s1blur.jpg";
+import s2 from "../assets/s2blur.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 // import prof2 from "../assets/prof2.png";
@@ -53,7 +55,7 @@ function Hero() {
                 className="absolute h-72 z-10 md:h-96  w-72 md:w-96  -top-4 -left-4 rounded-lg mx-auto border-2 border-dashed border-lime-300"
               ></motion.div>
               <img
-                src={profile2}
+                src={s2}
                 className=" h-72 md:h-96 w-72 md:w-96 rounded-lg  grayscale mx-auto"
                 alt="profilephoto"
               />

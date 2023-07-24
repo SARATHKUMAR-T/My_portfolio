@@ -10,7 +10,7 @@ function Navbar() {
         smooth={true}
         //   offset={-40}
         duration={800}
-        className="cursor-pointer"
+        className="cursor-pointer font-julee tracking-widest text-xl "
       >
         Sarath.dev
       </Link>
@@ -22,7 +22,7 @@ function Navbar() {
             to="about"
             spy={true}
             smooth={true}
-            //   offset={-40}
+            offset={10}
             duration={500}
           >
             About

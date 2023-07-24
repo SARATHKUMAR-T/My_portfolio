@@ -10,7 +10,9 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins"],
-        mono: ["Robot Mono"],
+        mono: ["Roboto Mono"],
+        hand: ["Fasthand"],
+        julee: ["julee"],
       },
     },
   },

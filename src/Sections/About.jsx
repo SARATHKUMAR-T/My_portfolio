@@ -3,13 +3,12 @@ function About() {
   // const animae={flow:{}}
   return (
     <section
-      className="relative overflow-x-hidden bg-slate-900 min-h-screen max-w-full py-6 sm:py-12 md:py-48"
+      className="relative overflow-x-hidden bg-slate-900 min-h-screen max-w-full py-6 sm:py-12 md:py-24"
       id="about"
     >
-        <h1 className=" capitalize text-center text-2xl sm:text-6xl lg:text-2xl font-bold tracking-wider ">
+      <h1 className=" capitalize text-center text-2xl sm:text-6xl lg:text-2xl font-bold tracking-wider ">
         <span>a</span>
-        bout{" "}
-        <span >m</span>e
+        bout <span>m</span>e
       </h1>
       {/* motion box left */}
       <motion.div
@@ -75,20 +74,40 @@ function About() {
           </motion.div>
         </motion.div>
       </motion.div>
-      <div className="max-w-md  md:max-w-xl mt-6 sm:mt-28 mx-auto ">
-        <h3 className="px-4 text-6xl md:text-8xl font-bold tracking-wide text-center mb-4">
+      <div className="max-w-md  md:max-w-xl mt-6 sm:mt-6 mx-auto ">
+        <h3 className=" px-4 text-6xl md:text-8xl font-julee tracking-wide text-center mb-4">
           S<span className="text-lime-300">a</span>ra
           <span className="text-lime-300">th</span>
         </h3>
-        <p className="text-slate-50 font-medium tracking-wide text-sm sm:text-lg leading-7 px-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum
-          quod aperiam inventore doloribus fugit ab culpa debitis, aspernatur
-          aliquam quibusdam ut blanditiis ducimus, a, eos commodi laboriosam
-          voluptate alias? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Odit harum quod aperiam inventore doloribus fugit ab culpa
-          debitis, aspernatur aliquam quibusdam ut blanditiis ducimus, a, eos
-          commodi laboriosam voluptate alias?
-        </p>
+        <ul className="list-disc">
+          <li className="mb-3">
+            <p className="text-slate-50  font-medium tracking-widest text-xs sm:text-base leading-7 px-4">
+              Hi there ! I'm a passionate and highly skilled Full Stack Web
+              Developer with a focus on <span className="underline decoration-lime-300">MERN stack technologies</span>. Embracing the
+              ever-evolving world of web development, I thrive on exploring new
+              and exciting technologies that emerge in the industry.
+            </p>
+          </li>
+          <li className="mb-3">
+            <p className="text-slate-50 font-medium tracking-wider text-xs sm:text-base leading-7 px-4">
+              My journey as a developer has been guided by the belief that
+              <span className="text-lime-300 font-julee"> "Nothing is difficult; it's just unfamiliar."</span> This
+              mantra inspires me to approach challenges with determination and a
+              willingness to learn. I'm always seeking opportunities to grow
+              both professionally and personally, ensuring that I stay at the
+              forefront of the rapidly changing tech landscape.
+            </p>
+          </li>
+          <li className="mb-3">
+            <p className="text-slate-50 font-medium tracking-wider text-xs sm:text-base leading-7 px-4">
+              With a keen interest in Web Development, I find joy in crafting
+              elegant and efficient solutions that deliver exceptional user
+              experiences. From conceptualization to deployment, I take pride in
+              my ability to work across the entire development lifecycle,
+              ensuring seamless and innovative results.
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
   );
