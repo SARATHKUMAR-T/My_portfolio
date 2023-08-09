@@ -1,5 +1,4 @@
 import profile2 from "../assets/KOLORO_1673783232127.jpg";
-import s1 from "../assets/s1blur.jpg";
 import s2 from "../assets/s2blur.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -67,12 +66,20 @@ function Hero() {
           <div className="flex  py-2 rounded-sm justify-center px-4 gap-12">
             <p className="pt-4 capitalize text-lime-300">find me here...</p>
             <div className="hover:border-4 border-r-4 border-b-4 border-black rounded-full w-10 h-10 duration-300">
-              <a href="https://github.com/SARATHKUMAR-T" target="_">
+              <a
+                href="https://github.com/SARATHKUMAR-T"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub className="w-12 h-12 rounded-full hover:border-4 text-lime-300 border-r-4 border-b-4 border-black duration-300" />
               </a>
             </div>
             <div className="hover:border-4 border-r-4 border-b-4 border-black rounded-sm w-10 h-10 duration-300 ">
-              <a href="https://www.linkedin.com/in/sarathfsd/" target="_">
+              <a
+                href="https://www.linkedin.com/in/sarathfsd/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin className="w-8 h-8 hover:border-4 text-lime-300 border-r-4 border-b-4 border-black duration-300" />
               </a>
             </div>
