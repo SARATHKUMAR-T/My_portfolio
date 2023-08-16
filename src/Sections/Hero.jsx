@@ -1,7 +1,6 @@
 import s2 from "../assets/s2blur.jpg";
 import linkedin from "../assets/linkedin.json";
 import github from "../assets/new.json";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Lottie from "lottie-react";
 
 import { motion } from "framer-motion";
