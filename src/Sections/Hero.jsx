@@ -74,9 +74,9 @@ function Hero() {
           </motion.div>
         </div>
         {/* socail links */}
-        <div className=" grow w-full mt-4 sm:mt-16 relative max-w-lg mx-auto py-2 px-4">
+        <div className=" grow w-full mt-4 sm:mt-16 relative max-w-lg mx-auto py-2 px-4 mb-12 sm:mb-0">
           <div className="flex  py-2 rounded-sm bg-slate-50 shadow-lg   shadow-lime-500  px-4 gap-2 items-center justify-center">
-            <p className="pt-4 capitalize text-xl font-medium text-lime-400">
+            <p className="pt-4 capitalize sm:text-xl text-sm sm:font-medium text-lime-400">
               find me here...
             </p>
             <div className="w-28 h-28 hover:scale-110 duration-300 ">

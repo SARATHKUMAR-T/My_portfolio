@@ -8,7 +8,7 @@ import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 function Projects() {
   return (
     <section
-      className="max-w-full min-h-screen py-6 sm:py-12 md:py-28 px-4 bg-lime-500 text-slate-900 "
+      className="max-w-full pb-12 sm:pb-0 min-h-screen py-6 sm:py-12 md:py-28 px-4 bg-lime-500 text-slate-900 "
       id="projects"
     >
       <motion.h1 className="uppercase text-center text-4xl sm:text-6xl lg:text-8xl font-bold tracking-wider">
@@ -48,7 +48,7 @@ function Projects() {
         </div>
         {/* 1st project project details */}
         <div className="py-0 lg:py-12 ">
-          <div className="text-xs text-slate-800  space-y-1 sm:space-y-5 relative  w-[70%] shadow-2xl shadow-blue-700 rounded-tl-[20%] rounded-br-[20%]  mx-auto lg:mr-auto bg-gray-100 mt-12 lg:mt-24">
+          <div className="text-xs text-slate-800  space-y-1 sm:space-y-5 relative  w-[70%] shadow-2xl shadow-blue-700 rounded-md  lg:rounded-tl-[20%] lg:rounded-br-[20%]  mx-auto lg:mr-auto bg-gray-100 mt-12 lg:mt-24">
             <p className=" pt-5 ">GloBill</p>
             <p className="text-start text-md sm:text-lg px-6 tracking-wider text-cyan-500">
               GloBill is an In Inventory billing application
@@ -168,7 +168,7 @@ function Projects() {
         </div>
         {/* 2nd project project details */}
         <div className="py-0 lg:py-12 ">
-          <div className="text-xs text-slate-900 shadow-2xl shadow-blue-700 rounded-tl-[20%] rounded-br-[20%]  space-y-1 sm:space-y-5 relative  w-[70%]   mx-auto lg:mr-auto bg-gray-100 mt-12 lg:mt-24">
+          <div className="text-xs text-slate-900 shadow-2xl shadow-blue-700 rounded-md lg:rounded-tl-[20%] lg:rounded-br-[20%]  space-y-1 sm:space-y-5 relative  w-[70%]   mx-auto lg:mr-auto bg-gray-100 mt-12 lg:mt-24">
             <p className=" pt-5 ">Slicemasters Pizzeria</p>
             <p className="text-start text-md sm:text-lg px-6 tracking-wider text-cyan-500">
               Slicemasters Pizzeria is a pizza ordering application
@@ -252,7 +252,7 @@ function Projects() {
         </div>
         {/* 3rd project project details */}
         <div className="py-0 lg:py-12 ">
-          <div className="text-xs text-slate-900 shadow-2xl shadow-blue-700 rounded-tl-[20%] rounded-br-[20%]  space-y-1 sm:space-y-5 relative  w-[70%]   mx-auto lg:mr-auto bg-gray-100 mt-12 lg:mt-24">
+          <div className="text-xs text-slate-900 shadow-2xl shadow-blue-700 rounded-md lg:rounded-tl-[20%] lg:rounded-br-[20%]  space-y-1 sm:space-y-5 relative  w-[70%]   mx-auto lg:mr-auto bg-gray-100 mt-12 lg:mt-24">
             <p className=" pt-5 ">TechJob</p>
             <p className="text-start text-md sm:text-lg px-6 tracking-wider text-cyan-500">
               TechJob is a Job search Application

@@ -29,7 +29,7 @@ function Contact() {
 
   return (
     <section
-      className="max-w-full py-24 min-h-screen px-4 bg-slate-50"
+      className="max-w-full py-14 pb-36 min-h-screen px-4 bg-slate-50"
       id="contact"
     >
       <h1 className="uppercase text-center text-slate-800 mt-8 text-3xl sm:text-6xl lg:text-6xl font-bold ">
