@@ -29,14 +29,14 @@ function Contact() {
 
   return (
     <section
-      className="max-w-full py-24 min-h-screen px-4 bg-blue-700"
+      className="max-w-full py-24 min-h-screen px-4 bg-slate-50"
       id="contact"
     >
-      <h1 className="uppercase text-center mt-8 text-3xl sm:text-6xl lg:text-6xl font-bold tracking-wider">
-        <span className="text-lime-300">L</span>et's{" "}
-        <span className="text-lime-300">T</span>alk
+      <h1 className="uppercase text-center text-slate-800 mt-8 text-3xl sm:text-6xl lg:text-6xl font-bold ">
+        <span className="text-lime-400">L</span>et's{" "}
+        <span className="text-lime-400">T</span>alk
       </h1>
-      <div className="flex mt-8 bg-slate-900 rounded-lg max-w-lg md:max-w-2xl mx-auto px-4 py-6 text-white items-center justify-center">
+      <div className="flex mt-8 bg-slate-900 rounded-lg max-w-lg md:max-w-xl mx-auto px-4 py-6 text-white items-center justify-center">
         <form
           className="flex w-[80%] py-12 flex-col gap-4"
           onSubmit={handleSubmit(onValid)}

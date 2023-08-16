@@ -3,7 +3,7 @@ function About() {
   // const animae={flow:{}}
   return (
     <section
-      className="relative overflow-x-hidden bg-slate-900 min-h-screen max-w-full py-6 sm:py-12 md:py-24"
+      className="relative overflow-x-hidden text-slate-900 bg-lime-500 min-h-screen max-w-full py-6 sm:py-12 md:py-24"
       id="about"
     >
       <h1 className=" capitalize text-center text-2xl sm:text-6xl lg:text-2xl font-bold tracking-wider ">
@@ -16,28 +16,28 @@ function About() {
         whileInView={{ x: 0, scale: 1 }}
         viewport={{ once: false }}
         transition={{ duration: 0.8 }}
-        className="absolute hidden  sm:flex items-center bg-slate-900 h-3/5 w-[15%] rounded-r-lg left-0 top-[20%]"
+        className="absolute hidden  sm:flex items-center bg-lime-500 h-3/5 w-[15%] rounded-r-lg left-0 top-[20%]"
       >
         <motion.div
           initial={{ x: -20, scale: 0.3 }}
           whileInView={{ x: 0, scale: 1 }}
           viewport={{ once: false }}
           transition={{ duration: 0.8 }}
-          className="bg-slate-900 flex border-r-2 border-orange-800 items-center h-[80%] w-[80%] rounded-r-xl"
+          className="bg-lime-500 flex border-r-2 border-white items-center h-[80%] w-[80%] rounded-r-xl"
         >
           <motion.div
             initial={{ x: -20, scale: 0.3 }}
             whileInView={{ x: 0, scale: 1 }}
             viewport={{ once: false }}
             transition={{ duration: 0.8 }}
-            className="bg-slate-900 border-r-2 border-orange-800  flex items-center h-[70%] w-[70%] rounded-r-2xl "
+            className="bg-lime-500 border-r-2 border-white  flex items-center h-[70%] w-[70%] rounded-r-2xl "
           >
             <motion.div
               initial={{ x: -20, scale: 0.3 }}
               whileInView={{ x: 0, scale: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 0.8 }}
-              className="bg-slate-900 border-r-2 border-orange-800 h-[60%] w-[60%] rounded-r-full"
+              className="bg-lime-500 border-r-2 border-white h-[60%] w-[60%] rounded-r-full"
             ></motion.div>
           </motion.div>
         </motion.div>
@@ -48,28 +48,28 @@ function About() {
         whileInView={{ x: 20, scale: 1 }}
         viewport={{ once: false }}
         transition={{ duration: 0.8 }}
-        className="absolute hidden sm:flex items-center  bg-slate-900 h-3/5 w-[15%] rounded-l-lg right-0 top-[20%] "
+        className="absolute hidden sm:flex items-center  bg-lime-500 h-3/5 w-[15%] rounded-l-lg right-0 top-[20%] "
       >
         <motion.div
           initial={{ x: 0, scale: 0.3 }}
           whileInView={{ x: 20, scale: 1 }}
           viewport={{ once: false }}
           transition={{ duration: 0.8 }}
-          className="bg-slate-900 flex border-l-2 border-orange-800 items-center h-[80%] w-[70%] rounded-l-xl"
+          className="bg-lime-500 flex border-l-2 border-white items-center h-[80%] w-[70%] rounded-l-xl"
         >
           <motion.div
             initial={{ x: 0, scale: 0.3 }}
             whileInView={{ x: 20, scale: 1 }}
             viewport={{ once: false }}
             transition={{ duration: 0.8 }}
-            className="bg-slate-900 border-l-2 border-orange-800  flex items-center h-[70%] w-[60%] rounded-l-2xl "
+            className="bg-lime-500 border-l-2 border-white  flex items-center h-[70%] w-[60%] rounded-l-2xl "
           >
             <motion.div
               initial={{ x: 0, scale: 0.3 }}
               whileInView={{ x: 20, scale: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 0.8 }}
-              className="bg-slate-900 border-l-2 border-orange-800 h-[60%] w-[50%] rounded-l-full"
+              className="bg-lime-500 border-l-2 border-white h-[60%] w-[50%] rounded-l-full"
             ></motion.div>
           </motion.div>
         </motion.div>
@@ -81,32 +81,24 @@ function About() {
         </h3>
         <ul className="list-disc">
           <li className="mb-3">
-            <p className="text-slate-50  font-medium tracking-widest text-xs sm:text-base leading-7 px-4">
+            <p className="text-slate-900  font-medium tracking-widest text-xs sm:text-base leading-7 px-4">
               Hi there ! I'm a passionate and highly skilled Full Stack Web
-              Developer with a focus on <span className="underline decoration-lime-300">MERN stack technologies</span>. Embracing the
+              Developer with a focus on <span className="underline decoration-slate-900">MERN stack technologies</span>. Embracing the
               ever-evolving world of web development, I thrive on exploring new
               and exciting technologies that emerge in the industry.
             </p>
           </li>
           <li className="mb-3">
-            <p className="text-slate-50 font-medium tracking-wider text-xs sm:text-base leading-7 px-4">
+            <p className="text-slate-900 font-medium tracking-wider text-xs sm:text-base leading-7 px-4">
               My journey as a developer has been guided by the belief that
-              <span className="text-lime-300 font-julee"> "Nothing is difficult; it's just unfamiliar."</span> This
+              <span className="text-sky-100 font-julee"> "Nothing is difficult; it's just unfamiliar."</span> This
               mantra inspires me to approach challenges with determination and a
               willingness to learn. I'm always seeking opportunities to grow
               both professionally and personally, ensuring that I stay at the
               forefront of the rapidly changing tech landscape.
             </p>
           </li>
-          <li className="mb-3">
-            <p className="text-slate-50 font-medium tracking-wider text-xs sm:text-base leading-7 px-4">
-              With a keen interest in Web Development, I find joy in crafting
-              elegant and efficient solutions that deliver exceptional user
-              experiences. From conceptualization to deployment, I take pride in
-              my ability to work across the entire development lifecycle,
-              ensuring seamless and innovative results.
-            </p>
-          </li>
+        
         </ul>
       </div>
     </section>

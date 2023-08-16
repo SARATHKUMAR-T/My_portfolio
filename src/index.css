@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .active {
-  @apply text-blue-700;
+  @apply text-cyan-500;
+}
+.text-outline {
+  -webkit-text-stroke: 2px white; /* Text border width and color */
+  color: black; /* Text fill color */
 }
