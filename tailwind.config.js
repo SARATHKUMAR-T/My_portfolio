@@ -13,6 +13,7 @@ export default {
         mono: ["Roboto Mono"],
         hand: ["Fasthand"],
         julee: ["julee"],
+        inter: ["Inter"],
       },
     },
   },

@@ -6,7 +6,7 @@ function Skills() {
       className="min-h-screen px-4 py-12 max-w-full bg-slate-50"
       id="skills"
     >
-      <h1 className="uppercase text-slate-900 text-center mt-2 sm:mt-6 text-4xl sm:text-6xl lg:text-6xl font-bold tracking-wider">
+      <h1 className="uppercase text-slate-900 text-center mt-2 sm:mt-6 text-4xl sm:text-6xl lg:text-6xl font-extrabold tracking-wider">
         <span className="text-lime-500">S</span>kills
       </h1>
       <div className=" rounded-lg gap-8 text-slate-900 flex items-center justify-center  flex-col max-w-4xl mx-auto mt-2 sm:mt-6 px-4 py-4 sm:py-12">
@@ -226,7 +226,7 @@ function Skills() {
         </div>
       </div>
       <div className="text-slate-900">
-        <h1 className="uppercase text-center my-4 sm:my-8 text-2xl sm:text-6xl lg:text-6xl font-bold tracking-wider">
+        <h1 className="uppercase text-center my-4 sm:my-8 text-2xl sm:text-6xl lg:text-6xl font-extrabold tracking-wider">
           <span className="text-lime-500 ">C</span>ertifications
         </h1>
         <p className="max-w-2xl my-4 mx-auto text-md sm:text-lg  text-center capitalize tracking-wide ">

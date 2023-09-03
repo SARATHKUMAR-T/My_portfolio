@@ -75,20 +75,20 @@ function Hero() {
         </div>
         {/* socail links */}
         <div className=" grow w-full mt-4 sm:mt-16 relative max-w-lg mx-auto py-2 px-4 mb-12 sm:mb-0">
-          <div className="flex  py-2 rounded-sm bg-slate-50 shadow-lg   shadow-lime-500  px-4 gap-2 items-center justify-center">
-            <p className="pt-4 capitalize sm:text-xl text-sm sm:font-medium text-lime-400">
+          <div className="flex  py-2 rounded-sm  shadow-lime-500  px-4 gap-2 items-center justify-center">
+            <p className="pt-4 capitalize sm:text-xl text-slate-800 text-sm sm:font-medium ">
               find me here...
             </p>
-            <div className="w-28 h-28 hover:scale-110 duration-300 ">
+            <div className="w-20 h-20 hover:scale-110 duration-300 ">
               <a
                 href="https://github.com/SARATHKUMAR-T"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Lottie height={400} width={400} animationData={github} />
+                <Lottie height={300} width={300} animationData={github} />
               </a>
             </div>
-            <div className=" w-28 h-28  hover:scale-110 duration-300 ">
+            <div className=" w-20 h-20  hover:scale-110 duration-300 ">
               <a
                 href="https://www.linkedin.com/in/sarathfsd/"
                 target="_blank"
