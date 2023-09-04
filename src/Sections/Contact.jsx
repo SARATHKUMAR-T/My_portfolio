@@ -32,7 +32,7 @@ function Contact() {
       className="max-w-full py-14 pb-36 min-h-screen px-4 bg-slate-50"
       id="contact"
     >
-      <h1 className="uppercase text-center text-slate-800 mt-8 text-3xl sm:text-6xl lg:text-6xl font-bold ">
+      <h1 className="uppercase text-center text-slate-800 mt-8 text-3xl sm:text-6xl lg:text-6xl font-extrabold ">
         <span className="text-lime-400">L</span>et's{" "}
         <span className="text-lime-400">T</span>alk
       </h1>
@@ -70,7 +70,7 @@ function Contact() {
             />
             <label
               htmlFor="floating_email"
-              className="peer-focus:font-medium absolute text-sm text-gray-900 dark:text-gray-400 duration-300 transform -translate-y-8 scale-75 top-1 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-8 scale-75 top-1 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Your Email
             </label>

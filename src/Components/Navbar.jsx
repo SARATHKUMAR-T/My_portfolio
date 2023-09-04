@@ -55,7 +55,11 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="./" target="_blank" rel="noreferror">
+          <a
+            href="https://drive.google.com/file/d/1nvUZGKXIDHAX2fnER-alHEVCH9glOyiE/view?usp=sharing"
+            target="_blank"
+            rel="noreferror"
+          >
             My Resume
           </a>
         </li>
