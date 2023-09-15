@@ -14,6 +14,7 @@ export default {
         hand: ["Fasthand"],
         julee: ["julee"],
         inter: ["Inter"],
+        Merienda: ["Merienda"],
       },
     },
   },

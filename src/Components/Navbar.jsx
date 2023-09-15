@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   return (
-    <nav className="hidden  text-slate-800 z-50 font-semibold tracking-wide h-16 fixed right-0 left-0 top-0 sm:flex justify-between items-center px-4 ">
+    <nav className="hidden bg-inherit  text-slate-800 z-50 font-semibold tracking-wide h-16 fixed right-0 left-0 top-0 sm:flex justify-between items-center px-4 ">
       <Link
         activeClass="active"
         to="hero"
@@ -10,7 +10,7 @@ function Navbar() {
         smooth={true}
         //   offset={-40}
         duration={800}
-        className="cursor-pointer font-julee tracking-widest text-xl "
+        className="cursor-pointer font-Merienda tracking-widest text-xl "
       >
         Sarath.dev
       </Link>
@@ -35,7 +35,7 @@ function Navbar() {
             smooth={true}
             spy={true}
             duration={500}
-            offset={40}
+            offset={-40}
             className="cursor-pointer"
           >
             Skills
@@ -58,7 +58,7 @@ function Navbar() {
           <a
             href="https://drive.google.com/file/d/1nvUZGKXIDHAX2fnER-alHEVCH9glOyiE/view?usp=sharing"
             target="_blank"
-            rel="noreferror"
+            rel="noreferrer"
           >
             My Resume
           </a>
@@ -69,7 +69,7 @@ function Navbar() {
             to="contact"
             spy={true}
             smooth={true}
-            offset={40}
+            offset={-30}
             duration={1000}
             className="cursor-pointer px-3 border-2 border-lime-500 text-sm "
           >

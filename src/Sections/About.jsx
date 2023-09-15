@@ -75,30 +75,38 @@ function About() {
         </motion.div>
       </motion.div>
       <div className="max-w-md  md:max-w-xl mt-6 sm:mt-6 mx-auto ">
-        <h3 className=" px-4 text-6xl md:text-8xl font-julee tracking-wide text-center mb-4">
+        <h3 className=" px-4 text-6xl md:text-8xl font-Merienda tracking-wide text-center mb-4">
           S<span className="text-lime-300">a</span>ra
           <span className="text-lime-300">th</span>
         </h3>
-        <ul className="list-disc">
+        <ul className="list-item">
           <li className="mb-3">
-            <p className="text-slate-900  font-medium tracking-widest text-xs sm:text-base leading-7 px-4">
-              Hi there ! I'm a passionate and highly skilled Full Stack Web
-              Developer with a focus on <span className="underline decoration-slate-900">MERN stack technologies</span>. Embracing the
-              ever-evolving world of web development, I thrive on exploring new
-              and exciting technologies that emerge in the industry.
+            <p className="text-slate-900  font-medium tracking-wide text-xs sm:text-base leading-7 px-4">
+              A passionate and highly skilled Full Stack Web Developer with a
+              focus on{" "}
+              <span className="underline decoration-slate-900">
+                MERN stack technologies
+              </span>
+              . Embracing the ever-evolving world of web development, I thrive
+              on exploring new and exciting technologies that emerge in the
+              industry.
             </p>
           </li>
-          <li className="mb-3">
-            <p className="text-slate-900 font-medium tracking-wider text-xs sm:text-base leading-7 px-4">
+          <li className="mb-3 pt-3">
+            <p className="text-slate-900 font-medium tracking-wide text-xs sm:text-base leading-7 px-4">
               My journey as a developer has been guided by the belief that
-              <span className="text-sky-100 font-julee"> "Nothing is difficult; it's just unfamiliar."</span> This
-              mantra inspires me to approach challenges with determination and a
-              willingness to learn. I'm always seeking opportunities to grow
-              both professionally and personally, ensuring that I stay at the
-              forefront of the rapidly changing tech landscape.
+              <br />
+              <span className="text-sky-100 text-xl sm:text-2xl font-Merienda">
+                {" "}
+                "Nothing is difficult; it's just unfamiliar."
+              </span>{" "}
+              <br />
+              This mantra inspires me to approach challenges with determination
+              and a willingness to learn. I'm always seeking opportunities to
+              grow both professionally and personally, ensuring that I stay at
+              the forefront of the rapidly changing tech landscape.
             </p>
           </li>
-        
         </ul>
       </div>
     </section>

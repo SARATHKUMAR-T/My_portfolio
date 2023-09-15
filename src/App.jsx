@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   const queryClient = new QueryClient();
   return (
-    <div className="min-h-screen  max-w-full bg-slate-900 font-inter text-white">
+    <div className="min-h-screen  max-w-full bg-slate-50 font-inter text-white overflow-hidden">
       {/* <Navbar/> */}
       <QueryClientProvider client={queryClient}>
         <Hero />
