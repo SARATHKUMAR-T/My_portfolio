@@ -204,7 +204,7 @@ function Projects() {
                 </div>
                 <div className="md:col-span-2 flex hover:scale-105 duration-300 text-cyan-500 w-1/2 pb-4  mx-auto justify-center items-center gap-2">
                   <a
-                    href="https://zemo-c6a5110of-sarathkumar-t.vercel.app/"
+                    href="https://zemo.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className=" inline-block"
